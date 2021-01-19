@@ -4,7 +4,7 @@
   "description": "Blog post tutorial on FullStackOpen",
   "main": "app.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --verbose",
     "start": "node index.js",
     "dev": "nodemon index.js"
     
