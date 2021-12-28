@@ -7,7 +7,7 @@ const mongoose = require('mongoose')
 const blogRouter = require('./controllers/blogs')
 
 const password = process.argv[2];
-const mongoUrl = `mongodb+srv://admin:applesauce@blogcluster.8u6ax.mongodb.net/BlogList?retryWrites=true&w=majority`
+const mongoUrl = `mongodb+srv://fullstackopen:1234@cards.sgkhl.mongodb.net/blog-posts?retryWrites=true&w=majority`
 mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true });
 
 app.use(cors());
